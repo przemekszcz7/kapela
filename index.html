@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>kapela</title>
+<title>Kapela</title>
 <meta name="description" content="kapela – grupa młodzieży, która próbuje się rozwijać muzycznie.">
 <meta name="theme-color" content="#111111">
 <link rel="icon" href="https://i.ibb.co/vC0tjmHz/887579410-122126735085267969-3924938367472484339-n.jpg">
@@ -51,8 +51,8 @@ a{color:inherit}
 .hero{position:relative;padding-block:clamp(36px,6vw,80px) clamp(50px,8vw,110px);overflow:hidden}
 .hero .wrap{position:relative}
 .stamp{display:inline-block;background:var(--lemon);padding:.35em .9em;border:2px solid var(--ink);transform:rotate(-2deg);box-shadow:4px 4px 0 var(--ink)}
-.title{font-family:var(--font-display);font-weight:400;text-transform:uppercase;line-height:.82;font-size:clamp(5.5rem,27vw,23rem);letter-spacing:-.01em;margin-block:18px 10px;position:relative;display:inline-block}
-.title span{display:block}
+.title{font-family:var(--font-display);font-weight:400;text-transform:uppercase;line-height:.9;font-size:clamp(4.5rem,27vw,19rem);letter-spacing:-.01em;margin-block:18px 10px;position:relative;z-index:1;display:block;white-space:nowrap}
+.title span{display:inline}
 .title .o{color:var(--pink);-webkit-text-stroke:0}
 .title .ol{color:transparent;-webkit-text-stroke:3px var(--ink)}
 .hero .sub{font-size:clamp(1.15rem,2.4vw,1.6rem);max-width:24em;font-weight:500;margin-top:10px}
@@ -62,7 +62,7 @@ a{color:inherit}
 .btn:hover{transform:translate(3px,3px);box-shadow:2px 2px 0 var(--pink)}
 .btn.alt{background:var(--paper);color:var(--ink);box-shadow:5px 5px 0 var(--blue)}
 .btn.alt:hover{box-shadow:2px 2px 0 var(--blue)}
-.disc{position:absolute;right:-60px;top:-10px;width:clamp(190px,34vw,420px);aspect-ratio:1;border-radius:50%;background:repeating-radial-gradient(circle,var(--ink) 0 3px,#2b2b2b 3px 6px);box-shadow:0 0 0 6px var(--ink);animation:spin 12s linear infinite;display:flex;align-items:center;justify-content:center}
+.disc{position:absolute;z-index:0;right:-60px;top:-10px;width:clamp(170px,26vw,320px);aspect-ratio:1;border-radius:50%;background:repeating-radial-gradient(circle,var(--ink) 0 3px,#2b2b2b 3px 6px);box-shadow:0 0 0 6px var(--ink);animation:spin 12s linear infinite;display:flex;align-items:center;justify-content:center}
 .disc img{width:36%;aspect-ratio:1;border-radius:50%;object-fit:cover;border:6px solid var(--pink);background:var(--pink)}
 .disc::after{content:"";position:absolute;width:5%;aspect-ratio:1;border-radius:50%;background:var(--paper)}
 @keyframes spin{to{transform:rotate(360deg)}}
